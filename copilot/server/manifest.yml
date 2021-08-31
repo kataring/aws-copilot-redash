@@ -37,4 +37,8 @@ environments:
     secrets:
       REDASH_REDIS_URL: /redash/test/server/REDIS_URL
       REDASH_DATABASE_URL: /redash/test/server/DATABASE_URL
+  production:
+    secrets:
+      REDASH_REDIS_URL: /redash/production/server/REDIS_URL
+      REDASH_DATABASE_URL: /redash/production/server/DATABASE_URL
 
